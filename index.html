@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="players">
+        <div class="player-1">
+          <div class="player-score">
+            <p class="player">Player 1</p>
+            <p class="score score-0">0</p>
+          </div>
+          <div class="current-score">
+            <p>Current Score</p>
+            <p class="current-score-pl-0">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="players">
+        <div class="player-2">
+          <div class="player-score">
+            <p class="player">Player 2</p>
+            <p class="score score-1">0</p>
+          </div>
+          <div class="current-score">
+            <p>Current Score</p>
+            <p class="current-score-pl-1">0</p>
+          </div>
+        </div>
+      </div>
+      <img src="dice-4.png" alt="Dice Image" class="dice" />
+      <button class="btn new">
+        <span class="icon">🔄</span><span class="lbl">New Game</span>
+      </button>
+      <button class="btn roll">
+        <span class="icon">🎲</span><span class="lbl">Roll Dice</span>
+      </button>
+      <button class="btn hold">
+        <span class="icon">📥</span><span class="lbl">Hold</span>
+      </button>
+    </div>
+    <div class="show-msg">
+      <p class="win-msg"></p>
+      <button class="modal-btn">ok</button>
+    </div>
+    <div class="mode-window"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
