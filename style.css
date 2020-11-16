@@ -229,6 +229,10 @@ body {
     transform: translate(0, -50%);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
+  
+  .btn:focus {
+    ouline: none;
+  }
 
   .roll {
     right: 5%;
