@@ -231,7 +231,7 @@ body {
   }
   
   .btn:focus {
-    ouline: none;
+    outline: none;
   }
 
   .roll {
